@@ -29,7 +29,7 @@ PROJECT_ID = os.environ.get('VERTEX_PROJECT_ID', '')
 LOCATION = os.environ.get('VERTEX_LOCATION', 'us-central1')
 
 # 模型配置URL
-default_models_config_url = "https://gist.githubusercontent.com/gzzhongqi/e0b684f319437a859bcf5bd6203fd1f6/raw"
+default_models_config_url = "https://github.com/54River/vertex2openai/blob/5b1cb99d12fca305fd116dfb42dd1050a502f766/vertexModels.json"
 MODELS_CONFIG_URL = os.environ.get('VERTEX_MODELS_CONFIG_URL', default_models_config_url)
 vertex_log('info', f"Using models config URL: {MODELS_CONFIG_URL}")
 
